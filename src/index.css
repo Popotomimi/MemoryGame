@@ -1,0 +1,68 @@
+body,
+html {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nav */
+
+nav {
+  text-align: center;
+  padding: 15px;
+  border-bottom: solid #2b3566 2px;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+
+.github {
+  font-size: 3rem;
+  background-color: #fff;
+  border-radius: 222px;
+  border: solid 1px #fff;
+  color: #000;
+  transition: 0.5s;
+}
+
+.github:hover {
+  background-color: #000;
+  border: solid 1px #000;
+  color: #fff;
+}
+
+.linkedin {
+  font-size: 3rem;
+  background-color: #fff;
+  border-radius: 6px;
+  border: solid 1px #fff;
+  color: #0e76a8;
+  transition: 0.5s;
+}
+
+.linkedin:hover {
+  background-color: #0e76a8;
+  border: solid 1px #0e76a8;
+  color: #fff;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+  margin-top: 350px;
+  margin-bottom: 50px;
+  padding: 5%;
+  border-top: #2b3566 solid 2px;
+}
+
+footer svg {
+  margin: 15px;
+}
+
+footer p {
+  margin: 5px;
+  font-weight: bold;
+}
